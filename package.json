@@ -1,6 +1,6 @@
 {
-  "name": "sspnet.tech.app",
-  "displayName": "SspnetExample",
+  "name": "madex.world.app",
+  "displayName": "Madex Demo App",
   "version": "1.0.0",
   "description": "A sample Apache Cordova application that responds to the deviceready event.",
   "main": "index.js",
@@ -16,7 +16,7 @@
     "cordova-android": "^10.1.2",
     "cordova-ios": "^6.3.0",
     "cordova-plugin-add-swift-support": "^2.0.2",
-    "cordova.plugin.madex": "file:../plugin"
+    "cordova.plugin.madex": "^1.0.4"
   },
   "cordova": {
     "platforms": [
