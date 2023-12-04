@@ -1,4 +1,4 @@
-# Madex Unity Demo App
+# Madex Cordova Demo App
 
 Application demonstrating how the SDK works
 
