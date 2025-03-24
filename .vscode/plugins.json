@@ -1,1 +1,1 @@
-{"plugins":["cordova.plugin.madex","cordova.plugin.sspnet"]}
+{"plugins":["cordova.plugin.madex","cordova.plugin.sspnet","cordova-plugin-add-swift-support"]}
