@@ -11,7 +11,14 @@ function onDeviceReady() {
 
     if (window.Madex) {
       const showCloseButton = true;
-      window.Madex.setBannerCustomSettings(showCloseButton);
+      const bannerPosition = window.Madex.BANNER_POSITION_BOTTOM;
+      const refreshIntervalSeconds = 10;
+
+      window.Madex.setBannerCustomSettings(
+        showCloseButton,
+        bannerPosition,
+        refreshIntervalSeconds
+      );
     }
 
     window.addEventListener("onBannerLoaded", function (adInfo) {
